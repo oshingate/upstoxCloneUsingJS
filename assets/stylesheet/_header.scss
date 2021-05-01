@@ -1,0 +1,43 @@
+.header {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid $text-gray;
+  li a {
+    font-size: 1rem;
+    color: white;
+  }
+  .fa-exchange-alt {
+    transform: rotate(90deg);
+  }
+  .flex-60 {
+    i {
+      margin-left: 1rem;
+      font-size: 1rem;
+    }
+    margin-left: 2rem;
+    h6 {
+      color: $text-gray;
+    }
+  }
+}
+
+.footer {
+  background-color: $sec;
+  padding: 0.5rem 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  li {
+    a i {
+      font-size: 1.5rem;
+      color: $text-gray;
+    }
+  }
+  li a > * {
+    margin-bottom: 0.5rem;
+  }
+  small {
+    font-size: 1rem;
+    color: $text-gray;
+  }
+}

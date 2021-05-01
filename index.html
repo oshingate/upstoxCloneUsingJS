@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watchlist</title>
+    <script
+      src="https://kit.fontawesome.com/7c7efbb78c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="flex">
+          <li class="flex-10 flex center-center">
+            <a href="#"><i class="fas fa-user-circle"></i></a>
+          </li>
+          <li class="flex-60">
+            <div>
+              <strong>Watchlist</strong><i class="fas fa-angle-down"></i>
+            </div>
+            <h6>indices</h6>
+          </li>
+          <li class="flex-15 flex aic jce">
+            <a href="#"><i class="fas fa-exchange-alt"></i></a>
+          </li>
+          <li class="flex-15 flex aic jce">
+            <a href="selectStocks.html"><i class="fas fa-plus-circle"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="display-sensex-sec">
+        <div class="container flex">
+          <div class="flex-50 sensex-card">
+            <div class="flex">
+              <div class="flex-40">
+                <h5>SENSEX</h5>
+              </div>
+              <div class="flex-60">
+                <h5><i class="fas fa-rupee-sign"></i> 48782.22</h5>
+                <h6>-983.58(1.98%)</h6>
+              </div>
+            </div>
+          </div>
+          <div class="flex-50 sensex-card">
+            <div class="flex">
+              <div class="flex-40">
+                <h5>NIFTY</h5>
+              </div>
+              <div class="flex-60">
+                <h5><i class="fas fa-rupee-sign"></i> 14631.22</h5>
+                <h6>-263.58(1.77%)</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="flex">
+        <li class="flex-20 text-center">
+          <a href="#">
+            <div class=""><i class="fas fa-bars"></i></div>
+            <small>Watchlist</small>
+          </a>
+        </li>
+        <li class="flex-20 text-center">
+          <a href="#">
+            <div class=""><i class="fas fa-history"></i></div>
+            <small>Orders</small>
+          </a>
+        </li>
+        <li class="flex-20 text-center">
+          <a href="#">
+            <div class=""><i class="fas fa-briefcase"></i></div>
+            <small>Portfolio</small>
+          </a>
+        </li>
+        <li class="flex-20 text-center">
+          <a href="#"
+            ><div class=""><i class="fas fa-rupee-sign"></i></div>
+            <small>Funds</small></a
+          >
+        </li>
+        <li class="flex-20 text-center">
+          <a href="#">
+            <div class=""><i class="fas fa-hand-holding-heart"></i></div>
+            <small>Invest</small></a
+          >
+        </li>
+      </ul>
+    </footer>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+.selectStock-header {
+  .selectStock-header-row1 {
+    padding: 0.8rem 0;
+    background-color: $text;
+    i {
+      font-size: 1rem;
+    }
+    input {
+      width: 100%;
+      border: none;
+      outline: none;
+      padding: 0.2rem;
+      background-color: $text;
+      &::placeholder {
+        color: $text-gray;
+      }
+    }
+  }
+  .selectStock-header-row2 {
+    padding: 0.8rem 0;
+    li a {
+      color: $text-gray;
+      font-size: 0.7rem;
+    }
+  }
+}

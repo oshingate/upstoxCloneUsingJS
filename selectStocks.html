@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SelectStocks</title>
+    <script
+      src="https://kit.fontawesome.com/7c7efbb78c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+  </head>
+  <body>
+    <header class="selectStock-header">
+      <div class="selectStock-header-row1">
+        <div class="flex container">
+          <div class="flex-10 flex center-center">
+            <a href="index.html"><i class="fas fa-long-arrow-alt-left"></i></a>
+          </div>
+
+          <div class="flex-80">
+            <input
+              type="text"
+              name="selectStockSearch"
+              id="selectStockSearch"
+              placeholder="Enter text to search"
+            />
+          </div>
+          <div class="flex-10 flex center-center">
+            <a href="#"><i class="fas fa-times"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="selectStock-header-row2">
+        <ul class="flex text-center container">
+          <li class="flex-20"><a href="#">ALL</a></li>
+          <li class="flex-20"><a href="#">CASH</a></li>
+          <li class="flex-20"><a href="#">F&O</a></li>
+          <li class="flex-20"><a href="#">CURRENCY</a></li>
+          <li class="flex-20"><a href="#">COMMODITY</a></li>
+        </ul>
+      </div>
+    </header>
+    <main></main>
+    <footer class="footer">
+      <ul class="flex">
+        <li class="flex-20 text-center">
+          <a href="#">
+            <div class=""><i class="fas fa-bars"></i></div>
+            <small>Watchlist</small>
+          </a>
+        </li>
+        <li class="flex-20 text-center">
+          <a href="#">
+            <div class=""><i class="fas fa-history"></i></div>
+            <small>Orders</small>
+          </a>
+        </li>
+        <li class="flex-20 text-center">
+          <a href="#">
+            <div class=""><i class="fas fa-briefcase"></i></div>
+            <small>Portfolio</small>
+          </a>
+        </li>
+        <li class="flex-20 text-center">
+          <a href="#"
+            ><div class=""><i class="fas fa-rupee-sign"></i></div>
+            <small>Funds</small></a
+          >
+        </li>
+        <li class="flex-20 text-center">
+          <a href="#">
+            <div class=""><i class="fas fa-hand-holding-heart"></i></div>
+            <small>Invest</small></a
+          >
+        </li>
+      </ul>
+    </footer>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
